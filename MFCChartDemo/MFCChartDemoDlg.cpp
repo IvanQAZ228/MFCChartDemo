@@ -130,7 +130,7 @@ BOOL CMFCChartDemoDlg::OnInitDialog()
 	pSeries->SetWidth(5); //line width
 	pSeries->SetColor(RGB(0, 0, 255)); //color of line
 	double XVal[20] = { 103.51 ,145.856 ,160.039 ,174.425 ,188.405 ,202.588 ,226.091 ,230.346 ,258.914 ,268.234 ,282.62 };
-	double YVal[20] = { 0.812003 ,0.295188 ,0.131059 ,0.258975 ,0.299947 ,0.38009 ,1 ,0.977828 ,0.214769 ,0.283843 ,0.149118 };
+	double YVal[20] = { 1 ,0.295188 ,0.531059 ,0.258975 ,0.299947 ,0.38009 ,1 ,0.977828 ,0.214769 ,0.283843 ,0.149118 };
 	pSeries->SetPoints(XVal, YVal, 20);
 
 	m_ChartCtrl.EnableRefresh(true);
